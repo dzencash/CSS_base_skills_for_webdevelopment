@@ -1,0 +1,23 @@
+@import url(stylereset.css);
+.columns2{
+	width: 90vw;
+	min-height: 500px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	
+	background-color: coral;
+}
+
+.column2{
+	width: calc((100% - 40px)\3);
+	background-color: lightblue;
+}
+.image{
+	background-image: url(../img/pixel.jpeg);
+	background-size: cover;
+	background-position: center center;
+	height: 200px;
+	padding-bottom: 100%;
+}

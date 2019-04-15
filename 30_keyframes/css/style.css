@@ -1,0 +1,72 @@
+@import url(normalize.css);
+
+@keyframes moving{
+	0% {
+		top: 0;
+		left: 0;
+	}
+	25% {
+		top: 0;
+		left: 400px;
+		background-color: green;
+	}
+	50% {
+		top: 400px;
+		left: 400px;
+		background-color: white;
+	}
+	75% {
+		top: 400px;
+		left: 0;
+		background-color: black;
+	}
+	100%{
+		top: 0;
+		left: 0;
+	}
+}
+
+
+/*первый способ задания
+	@keyframes moving{
+	from{
+		top: 0;
+		left: 0;
+	}
+	to{
+		top: 400px;
+		left:80%;
+		background-color: green;
+	}
+	}
+	*/
+
+body{
+	background-color: red;
+}
+
+.ball{
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+	border-radius: 100px;
+	position: relative;
+	/*Задаем имя анимации, как в @keyframes*/
+	animation-name: moving;
+	/*продолжительность*/
+	animation-duration: 30s;
+	/*в какой момент происходит изменение*/
+	animation-timing-function: ease-in-out;
+	/*задержка*/
+	animation-delay:2s;
+	/*кол-во повторений*/
+	animation-iteration-count: infinite;
+	/*направление анимации*/
+	animation-direction: alternate;
+	/*условия включения - jscript*/
+	animation-play-state: running;
+
+	/*Или просто напиши:
+	animation: moving 15s ease-in-out delay infinite alternate;
+	*/
+}

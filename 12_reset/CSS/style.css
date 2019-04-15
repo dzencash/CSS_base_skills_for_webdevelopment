@@ -1,0 +1,83 @@
+/*
+@import	url(stylereset.css);
+*/
+body{
+	background-color: #f4f4f4;	
+	color:#555555;
+
+	font-family: Helvetica, Arial, sans-sarif;
+	font-size: 18px;
+	font-weight: normal;
+	/* font: normal 18px Arial, Helvetica, sans-sarif;
+	same as above */
+	line-height: 1.2em;
+	margin:0;
+}
+
+a{
+text-decoration: none;
+}
+a:hover{
+	color: red;
+}
+a:active{ 
+	color: green;
+}
+
+.container{
+width:95%;
+margin:auto;
+}
+.container2{
+width:90%;
+margin:auto;
+}
+
+
+.box-1{
+background-color: #333333;
+color: #ffffff;
+/* 
+border-right:5px red solid;
+border-left:5px red solid;
+border-top:5px red solid;
+border-bottom:5px red solid;
+save as above */
+border: 5px black solid;
+/*border-width: 3px;
+border-bottom-width: 10px;
+border-top-style: solid;*/
+padding:20px;
+margin-top: 20px;
+}
+
+.box-1 h1{
+font-family: Tahoma;
+font-weight: 1200;
+font-style: 
+font-style:italic;
+text-decoration: bold;
+text-transform: uppercase; 
+letter-spacing: 0.2em;
+word-spacing:0.1em;
+}
+.box-2{
+	border: 3px solid #ccc;
+	padding: 20px;
+	margin:20px 0
+}
+
+.categories{
+	width: 80%;
+	margin: auto;
+	border: 1px #ccc solid;
+	padding: 10px;
+	border-radius: 15px;
+}
+.categories h2{
+	text-align:center;
+}
+.categories li{
+	padding-bottom: 6px;
+	border-bottom:solid 1px #333;
+}

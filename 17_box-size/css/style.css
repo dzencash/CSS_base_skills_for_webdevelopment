@@ -1,0 +1,111 @@
+@import url(normalize.css);
+/*----First Element----*/
+.first{
+	background-color: coral;
+	width: 100%;
+	height: 650px;
+	border: 5px solid #FFAE88;
+	margin: auto; 
+	box-sizing:content-box;
+	box-sizing: border-box;
+}
+/*----Second Element----*/
+.outer{
+	width: 600px;
+	height: 600px;
+	border: 5px solid #A52D37;
+	background-color: #E2CF9C;
+	margin: auto;
+}
+
+.inner{
+	width: 100px;
+	height: 100px;
+	background-color: #C2103C;
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-bottom: 50px; 
+	/*если margin-botton не встречает 
+	границы то двигается до границы 
+	следующегоэлемента
+	можно: margin: 10px 10px 10px 10px  
+	вверх вправо низ лево*/
+
+}
+
+/*----Third Element----*/
+
+
+.third{
+	box-sizing: border-box;
+	width: 100%;
+	height: 600px;
+	background-color: #FF807A;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-bottom: 40px;
+	padding-right: 15px;
+	margin: auto;
+}
+
+/*----Second: content----*/
+.content-box{
+	font-size: 0px;
+}
+
+.content1{
+	height: 200px;
+	background-color: #FF675C;
+}
+
+.content2{
+	height: 200px;
+	background-color: #FEAFA8;
+}
+
+.content div{
+	font-size: 10px;
+	width: 200px;
+	display: inline-block;
+	vertical-align: top;
+	/*По умолчанию block*/
+}
+.content img{
+	width: 200px;
+	display: block;
+	/*По умолчанию inline-block*/
+}
+.content a{
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin: auto;
+	/*По умолчанию inline*/
+}
+.five img{
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 600px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

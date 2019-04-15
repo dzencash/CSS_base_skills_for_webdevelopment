@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://yastatic.net/s3/home/ga-counter/9/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <script type="text/javascript" src="./f.txt" charset="utf-8"></script>
+    <script>
+
+        function sendStats(id, params, remarketingOnly) {
+            window.google_trackConversion({
+                google_conversion_id: id,
+                google_custom_params: params,
+                google_remarketing_only: remarketingOnly
+            });
+        }
+
+        function sendLabel(id, label, remarketingOnly) {
+            window.google_trackConversion({
+                google_conversion_id: id,
+                google_conversion_label: label,
+                google_remarketing_only: remarketingOnly
+            });
+        }
+
+        if (window.addEventListener) {
+            window.addEventListener('message', function(event) {
+                var data = event ? event.data : null;
+
+                if (data && data.type === 'params' && data.id) {
+                    if (data.params) {
+                        sendStats(data.id, data.params, data.remarketingOnly);
+                    } else if (data.labels && data.labels.length > 0) {
+                        for (var i = 0, l = data.labels.length; i < l; i++) {
+                            sendLabel(data.id, data.labels[i], data.remarketingOnly);
+                        }
+                    }
+                }
+            }, false);
+        }
+
+    </script><script src="./f(1).txt"></script></head><body>
+</body></html>

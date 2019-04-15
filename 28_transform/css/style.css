@@ -1,0 +1,27 @@
+@import url(normalize.css);
+
+div{
+	width: 400px;
+	height: 250px;
+	background-color: coral;
+	margin: 20px auto;
+
+	transition: 1s;
+}
+
+/*Сдвиг элемента*/
+.translate:hover{
+	transform:translate(20px, 0);
+}
+/*Поворот элемента элемента*/
+.rotate:hover{
+	transform:rotate(90deg);
+}
+/*Наклон*/
+.skew:hover{
+	transform:skew(20deg,30deg);
+}
+/*Масштабирование*/
+.scale:hover{
+	transform:scale(1,0.8);
+}

@@ -1,0 +1,33 @@
+@import url(normalize.css);
+
+
+.outer{
+	height: 600px;
+	border:5px solid brown;
+	position: relative;
+}
+
+.first, .second, .third{
+	width: 400px;
+	height: 200px;
+	border-radius: 100px;
+}
+
+.first{
+	background-color: #F3B6B1;
+	position: absolute;
+	right: 0;
+	bottom: 300px;
+} 
+.second{
+	background-color: #8D4142;
+	position: absolute;
+	right: 150px;
+	bottom: 300px;
+}  
+.third{
+	background-color: #D2B4AE;
+	position: absolute;
+	right: 300px;
+	bottom: 300px;
+} 

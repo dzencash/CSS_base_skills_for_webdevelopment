@@ -1,0 +1,19 @@
+.linear{
+	width: 500px;
+	height: 500px;
+	background-image: linear-gradient(to right bottom, red 10%, navy 20%, yellow 45%);
+	/*also you can use:(45deg; to bottom, to right bottom) plus colors:(red, navy)*/	
+}
+
+.radial{
+	width: 500px;
+	height: 500px;
+	background-image: radial-gradient(blue, red);	
+}
+
+.shadow{
+	width: 500px;
+	height: 500px;
+	box-shadow: 20px 20px 10px black;
+	/*box-shadow:_ _ _ _;*/ 
+}

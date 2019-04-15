@@ -1,0 +1,17 @@
+.header{
+	/*width: 1000px;*/
+	height: 400px;
+	background-color: black;
+	background-image: url(../img/baseball.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;	
+	background-position: center center;
+	background-attachment: scroll;/* basic position*/
+}
+
+.bigSection{
+	background-image: url(../img/football.jpg);
+	height: 300px;
+	background-position: center;
+	background-attachment: fixed;
+}

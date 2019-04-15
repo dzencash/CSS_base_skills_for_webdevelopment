@@ -1,0 +1,54 @@
+@import url(normalize.css);
+
+img{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+
+
+
+/*Position*/
+
+section{
+	height: 600px;
+	border: 5px solid coral;
+	box-sizing: border-box;
+}
+
+.inner{
+	width: 100px;
+	height: 100px;
+}
+
+.static .inner{
+	background-color: #feafa8;
+	position: static;
+	margin:20px;
+}
+.relative .inner{
+	background-color: #ff675c;
+	position: relative;
+	top: 50px;
+}
+
+.absolute{
+	position: relative;
+}
+.absolute .inner{
+	background-color: #ffae88;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.fixed .inner{
+	background-color: #e2cf9c;
+	position: fixed;
+	top: 100px;
+	left: 100px;
+}

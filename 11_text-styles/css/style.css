@@ -1,0 +1,102 @@
+
+
+
+/*Fonts from net another way*/
+
+/**/
+@font-face{
+	src: url(..font/Gulim.ttf);
+	font-family: 'Gulim';
+	font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
+
+
+
+/*Main page style start*/
+
+.main-page{
+	background-image: url(../img/baiakl.jpeg);
+}
+
+
+/*A version*/
+.heading h1{
+	text-align: center;
+	text-transform: uppercase;
+}
+.main h1{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.main a{
+	text-decoration: none;
+}
+.paragraph p{
+	line-height: 30px;
+	letter-spacing: 3px;
+	text-shadow: 3px 3px 3px grey;
+}
+.font p{
+	font-size: 30px;
+	font-weight: lighter;
+	font-style: normal;
+}
+/*B version
+
+
+font-family: 'Pacifico', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Press Start 2P', cursive;
+*/
+
+.maintext{
+	padding-bottom: -4px;
+	margin-bottom: -15px;
+}
+.maintext p{
+	font-size: 100px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	line-height: 45px;
+}
+#parag{
+	letter-spacing: 8px;
+}
+#paci{
+	font-family: 'Comfortaa';
+}
+#pres{
+	font-family: 'Cormorant';
+}
+h1{
+	font-family: 'Press Start 2P';
+}
+
+#headwelc{
+	font-family: 'Anonymous Pro', monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

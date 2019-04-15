@@ -1,0 +1,18 @@
+.bordered{
+	width: 500px;
+	height: 500px;
+	border-top: 15px navy solid;
+	border-bottom: 15px yellow dotted;
+	border-left: 15px brown double;
+	border-right: 15px grey dashed;
+	/*same 
+	border: 10px black double;
+
+	border-width: 10px;
+	border-color: black;
+	border-style: double;
+	*/
+	border-radius: 30px;
+	border-style: dotted;
+
+}

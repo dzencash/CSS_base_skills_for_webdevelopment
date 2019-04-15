@@ -1,0 +1,38 @@
+@import url(stylereset.css);
+
+.flex-container{
+	height: 500px;
+	background-color: coral;
+	display: flex;
+	margin: auto;
+	flex-direction: row;
+	/*flex-wrap: nowrap;*/
+	justify-content: center;
+	align-items: center;
+
+	align-content: stretch;
+}
+
+.flex-item{
+	
+	height: 100px;
+	width: 300px;
+	background-color: #5ccccc;
+	
+}
+.flex-item.one{
+	order: 1;
+	flex-grow: 0;
+	flex-shrink: 5;
+	border:1px solid navy;
+
+}
+
+.flex-item.two{ 
+	order: 2;
+	align-self: flex-end;
+}
+.flex-item.three{
+	order: 3;
+	flex-basis: 500px;
+}
